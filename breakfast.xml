@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?> 
-   <breakfast>=menu></breakfast> 
+   <breakfast>=menu>
      <food>
         <name>Belgian Waffles</name> 
          <price>$5.95</price>  
          <description>Una descripción en griego:Ω omega</description> 
-         <calories>650</calories>  
-     <food>
-     <food> 
+         <calories>650</calories>   
        <name>Strawberry Belgian Waffles</name> 
        <price>$7.95</price> 
        <description>Otra descripción</description> 
        <calories>900</calories>
    </food>
+  </breakfast> 
