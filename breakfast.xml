@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?> 
-   <breakfast>=menu></breakfast> titulo= menú> 
+   <breakfast>=menu></breakfast> 
      <food>
         <name>Belgian Waffles</name> 
          <price>$5.95</price>  
