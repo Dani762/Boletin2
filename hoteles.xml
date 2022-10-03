@@ -1,8 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Completar este documento para registrar hoteles,
-    donde tengas nombre, teléfono, dirección(calle y número),
-    ciudad, país, numero de estrellas, descripción del hotel,
-    número habitaciones individuales, habitaciones dobles,
-    habitaciones triples, suites.
-    Probar si es un documento bien formado.
--->
+<!DOCTYPE hoteles SYSTEM "listahoteles.dtd">
+
+<hoteles>
+    <agenda>
+       <nombre>
+        Hotel Los Palacios
+       </nombre>
+       <telefono>
+        677777777
+       </telefono>
+       <direccion>
+            <calle>
+                Avenida Realista
+            </calle>
+            <numero>
+                35
+            </numero>
+       </direccion>
+       <ciudad>
+        Zaragoza
+       </ciudad>
+       <pais>
+        España
+       </pais>
+    </agenda>
+    <resenas>
+        <estrellas>
+            *****
+        </estrellas>
+        <descripcion>
+            Hotel de lujo con preciosas vistas y habitaciones premium
+         </descripcion>
+    </resenas>
+    <habitaciones>
+        <individuales>
+        95
+        </individuales>
+        <dobles>
+        76
+        </dobles>
+        <triples>
+        34
+        </triples>
+        <suites>
+            17
+        </suites>
+     </habitaciones>
+</hoteles>

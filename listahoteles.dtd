@@ -1,0 +1,21 @@
+<!ELEMENT hoteles (agenda*,resenas*,habitaciones*)>
+<!ELEMENT agenda (nombre*,telefono*,direccion*,ciudad,pais)>
+<!ELEMENT resenas (estrellas*,descripcion*)>
+<!ELEMENT habitaciones (individuales*,dobles*,triples*,suites*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (calle*,numero*)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT estrellas (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT individuales (#PCDATA)>
+<!ELEMENT dobles (#PCDATA)>
+<!ELEMENT triples (#PCDATA)>
+<!ELEMENT suites (#PCDATA)>
+
+
+
+
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
